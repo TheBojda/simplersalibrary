@@ -65,5 +65,5 @@ echo "signature: $signature<br/>";
 echo "verify: " . $rsa_tool->verifyWithKey('Hello World!', $signature, $publicKey);
 ```
 
-This library uses [http://www.bouncycastle.org/ Bouncy Castle] library for the Java implementation.
+This library uses [Bouncy Castle](http://www.bouncycastle.org/) library for the Java implementation.
 
